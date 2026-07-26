@@ -1,0 +1,39 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Dados gerados em runtime
+data/sessions/
+data/logs/
+data/exports/
+!data/.gitkeep
+
+# Dependências e build
+node_modules/
+.next/
+dist/
+build/
+
+# Outros projetos aninhados com git próprio
+appdamay/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+cookies.txt
+
+# Configurações locais de IDE/launcher
+.claude/
+
+# Estado da aplicação (pastas marcadas, etc.)
+data/roots.json
