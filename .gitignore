@@ -11,6 +11,7 @@ __pycache__/
 data/sessions/
 data/logs/
 data/exports/
+data/roots.json
 !data/.gitkeep
 
 # Dependências e build
