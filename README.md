@@ -1,4 +1,4 @@
-# Kimi Code — Setup (kimi-k2.7-code)
+# kimiSole — Console para Kimi Code
 
 Ambiente configurado conforme o quickstart oficial:
 https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart
@@ -41,6 +41,16 @@ Agent loop com tool calling (o modelo pode ler arquivos, listar diretorios e exe
 ```powershell
 python agent_loop.py "Analise o quickstart.py e sugira melhorias"
 ```
+
+Servidor Web UI:
+
+```powershell
+.venv\Scripts\python.exe app.py
+# ou
+iniciar.bat
+```
+
+Acesse `http://127.0.0.1:8765` no navegador.
 
 ## Configuracao (via .env)
 
