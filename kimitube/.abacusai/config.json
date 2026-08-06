@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pathlib,re; root=pathlib.Path(r'D:\\kimicode\\kimitube');\nfor p in root.rglob('*.py'):\n    txt=p.read_te…)",
+      "Bash(python -c \"import pathlib,re; root=pathlib.Path(r'D:\\kimicode\\kimitube'); [print(p) for p in root.rglob('*.py') if re.se…)",
+      "Bash(findstr /S /N /I \"search buscar keyword youtube insight\" app\\*.py)",
+      "Bash(dir static)",
+      "Bash(python -c \"from app import config; s=config.get_api_key_status(); print('configured=', s['configured']); print('length='…)",
+      "Bash(python -c \"print(1)\")",
+      "Bash(python -c \"import app.config as c; s=c.get_api_key_status(); print(s['configured']); print(s['length'])\")",
+      "Bash(python -m pytest tests/test_discovery.py -q)",
+      "Bash(.venv\\Scripts\\python.exe -m pytest tests\\test_discovery.py -q)",
+      "Bash(dir /s /b web)",
+      "Bash(rg -n 'post\\(\"/api/discover\"|post\\(\"/api/spy\"|/api/radar/keywords' 'D:\\kimicode\\kimitube\\static\\app.js')",
+      "Bash(python -c \"import app.main; print('ok')\")",
+      "Bash(rg --files --glob '**/AGENTS.md' 'D:\\kimicode\\kimitube' --sort modified)",
+      "Bash(dir)",
+      "Bash(rg --files --glob '**/AGENTS.md' . --sort modified)",
+      "Bash(start /B \"\" .venv\\Scripts\\python.exe run.py)",
+      "Bash(.venv\\Scripts\\python.exe data\\diag_runtime.py)",
+      "Bash(.venv\\Scripts\\python.exe data\\diag_runtime.py)",
+      "Bash(.venv\\Scripts\\python.exe data\\diag_api.py)",
+      "Bash(rg --files --glob '**/app.js' 'D:\\kimicode\\kimitube' --sort modified)",
+      "Bash(rg --files --glob 'web/*.js' . --sort modified)",
+      "Bash(rg --files --glob 'tests/*.py' . --sort modified)",
+      "Bash(rg --files --glob '*.py' 'D:\\kimicode\\kimitube\\tests' --sort modified)"
+    ]
+  }
+}
