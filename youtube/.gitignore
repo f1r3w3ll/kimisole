@@ -1,0 +1,38 @@
+# Dependências e build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Artefatos do tsc (emitidos ao lado dos .ts; o runtime usa tsx direto)
+src/server/*.js
+src/server/*.d.ts
+vite.config.js
+vite.config.d.ts
+
+# Ambiente (segredos)
+.env
+.env.local
+
+# Estado de runtime / persistência (NUNCA commitar: dados de usuários, carteiras, vouchers)
+storage/
+data/*.json
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cookies de sessão do YouTube (NUNCA commitar)
+cookies.txt
+cookies_auto.txt
+cookies_export.txt
+
+# Binários do ffmpeg (grandes)
+ffmpeg/
+
+# Logs
+*.log
+
+# Arquivos locais (screenshots, etc.)
+vnc_screen*.png
